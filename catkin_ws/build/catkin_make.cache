@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/saharsh/Desktop/WRO_Assignment/WRO_ROS_Solution/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/saharsh/Desktop/WRO_Assignment/WRO_ROS_Solution/catkin_ws/install -G Unix Makefiles
