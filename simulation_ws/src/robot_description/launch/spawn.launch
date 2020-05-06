@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
 
-    <!-- Uncomment the below lines or run rosrun gazebo_ros gazebo in another terminal -->
-    <!-- these are the arguments you can pass this launch file, for example paused:=true -->
-    <!-- <arg name="paused" default="false"/>
-    <arg name="use_sim_time" default="true"/>
-    <arg name="gui" default="true"/>
-    <arg name="headless" default="false"/>
-    <arg name="debug" default="false"/> -->
-
-    <!-- We resume the logic in empty_world.launch -->
-    <!-- <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="debug" value="$(arg debug)" />
-    <arg name="gui" value="$(arg gui)" />
-    <arg name="paused" value="$(arg paused)"/>
-    <arg name="use_sim_time" value="$(arg use_sim_time)"/>
-    <arg name="headless" value="$(arg headless)"/> -->
-    <!-- arg name="world_name" value="$(find task_1)/world/tutorial_testing.world"/ -->
-    <!-- </include> -->
-
-
-    <param name="robot_description" command="cat '$(find robot_description)/urdf/robot.xacro'" />
+    <param name="robot_description" command="$(find xacro)/xacro.py '$(find robot_description)/urdf/robot.xacro'" />
 
     <arg name="x" default="0"/>
     <arg name="y" default="0"/>
