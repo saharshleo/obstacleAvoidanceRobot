@@ -270,7 +270,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = '/home/saharsh/ros20_ws/devel;/opt/ros/kinetic'.split(';')
+            CMAKE_PREFIX_PATH = '/home/saharsh/Desktop/WRO_Assignment/WRO_ROS_Solution/simulation_ws/devel;/home/saharsh/Desktop/WRO_Assignment/WRO_ROS_Solution/catkin_ws/devel;/home/saharsh/ros20_ws/devel;/opt/ros/kinetic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []
