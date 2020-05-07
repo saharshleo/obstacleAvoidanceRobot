@@ -20,7 +20,7 @@ This will load the robot in the environment at origin. It can be spawned at diff
 
 ## Video
 
-![obstacle-avoidance-bot-using-ros-and-gazebo](https://github.com/saharshleo/obstacleAvoidanceRobot/blob/master/pictures/obstacleAvoidance.mkv)
+[![obstacle-avoidance-bot-using-ros-and-gazebo](https://i9.ytimg.com/vi/0pR6Cr7dMHA/mq2.jpg?sqp=COTh0fUF&rs=AOn4CLDDs-QOqjBt6sEjz0F4YoC9WIo-9A)](https://youtu.be/0pR6Cr7dMHA "obstacleAvoidanceRobot")
 
 ## License
 
