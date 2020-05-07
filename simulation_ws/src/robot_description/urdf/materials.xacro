@@ -24,4 +24,15 @@
   <material name="white">
     <color rgba="1.0 1.0 1.0 1.0"/>
   </material>  
+  <material name="laserLight">
+    <lighting>1</lighting>
+    <ambient>0.3 0.3 0.3 1</ambient>
+    <diffuse>0.7 0.7 0.7 1</diffuse>
+    <specular>0.01 0.01 0.01 1</specular>
+    <emissive>0 0 0 1</emissive>
+  </material>
+  <material name="collisionLaser">
+    <laser_retro>0</laser_retro>
+    <max_contacts>10</max_contacts>
+  </material>
 </robot>

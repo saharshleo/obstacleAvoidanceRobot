@@ -61,7 +61,7 @@
   <link name="sensor_laser">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0" />
-      <mass value="1" />
+      <mass value="4" />
       <xacro:cylinder_inertia mass="1" r="0.05" l="0.1" />
     </inertial>
 
@@ -71,6 +71,7 @@
         <cylinder radius="0.05" length="0.1"/>
       </geometry>
       <material name="white" />
+      <material name="laserLight" />
     </visual>
 
     <collision>
@@ -78,6 +79,7 @@
       <geometry>
         <cylinder radius="0.05" length="0.1"/>
       </geometry>
+      <material name="collisionLaser" />
     </collision>
   </link>
 
