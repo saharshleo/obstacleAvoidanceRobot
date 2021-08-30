@@ -20,7 +20,11 @@ This will load the robot in the environment at origin. It can be spawned at diff
 
 ## Video
 
-[![obstacle-avoidance-bot-using-ros-and-gazebo](https://img.youtube.com/vi/0pR6Cr7dMHA/0.jpg)](https://youtu.be/0pR6Cr7dMHA "obstacleAvoidanceRobot")
+[![obstacle-avoidance-bot-using-ros-and-gazebo](https://img.youtube.com/vi/0pR6Cr7dMHA/0.jpg)](https://youtu.be/0pR6Cr7dMHA "obstacleAvoidanceRobot")  
+
+## References
+* [Video Series- Construct](https://www.theconstructsim.com/ros-projects-exploring-ros-using-2-wheeled-robot-part-1)
+* [Statement motivation](https://github.com/udit7395/Obstacle-Avoidance-Using-ROS-And-Gazebo)
 
 ## License
 
